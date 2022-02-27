@@ -4,10 +4,10 @@ mkdir -p out outl
 
 python -m ael.train \
     Train \
-    ../tests/testdata/systems.dat \
-    ../tests/testdata/systems.dat \
-    -t ../tests/testdata/systems.dat \
-    -d ../tests/testdata \
+    ./tests/testdata/systems.dat \
+    ./tests/testdata/systems.dat \
+    -t ./tests/testdata/systems.dat \
+    -d ./tests/testdata \
     -r 3.5 \
     -p 0.5 \
     -lr 0.0005 \
